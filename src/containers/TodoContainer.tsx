@@ -61,7 +61,7 @@ const TodoContainer = () => {
   };
 
   return (
-    <div className="container flex flex-col items-center  bg-[#cddcf3]">
+    <div className="container flex flex-col items-center  bg-[#cddcf3] min-w-96">
       <h1 className="mb-8">To-Do List</h1>
 
       <TodoForm
